@@ -13,17 +13,18 @@
     font-weight: 500;
     line-height: 27.2px;
     color: $title-color;
-    margin-bottom: 14px;
+    margin-bottom: 18px;
   }
 
   .demo__text {
     font-size: 15px;
     font-weight: 400;
     color: $font-color;
+    line-height: 24px;
   }
 
   .demo__button {
     max-width: 261px;
-    margin: 18px 0;
+    margin: 24px 0;
   }
 }
