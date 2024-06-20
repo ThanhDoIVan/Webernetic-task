@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  max-width: 100;
+  padding: 14px 24px;
 }
 
 .none {
@@ -49,4 +49,61 @@ ul, li {
 img {
   display: block;
   max-width: 100%;
+}
+
+.demo {
+  display: flex;
+  flex-direction: column;
+  background: #F0F4FC;
+  border-radius: 10px;
+}
+
+.demo__image {
+  border-radius: 0 0 10px 10px;
+}
+
+.demo__button {
+  max-width: 279px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 60px;
+  padding: 10px;
+  padding-left: 18px;
+  background: #244C98;
+  color: #ffffff;
+}
+
+.demo__arrow {
+  color: #1F4284;
+  padding: 6px;
+  background: #ffffff;
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 375px) {
+  .demo__description {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    padding-bottom: 0;
+  }
+  .demo__header {
+    font-weight: 500;
+    line-height: 27.2px;
+    color: #1F4284;
+    margin-bottom: 14px;
+  }
+  .demo__text {
+    font-size: 13px;
+    font-weight: 400;
+    color: #727272;
+  }
+  .demo__button {
+    max-width: 279px;
+    margin: 18px 0;
+  }
 }/*# sourceMappingURL=main.css.map */

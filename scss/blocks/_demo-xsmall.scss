@@ -1,0 +1,62 @@
+@import "../base/media";
+
+.demo {
+  display: flex;
+  flex-direction: column;
+  background: $background-color;
+  border-radius: 10px;
+}
+
+.demo__image {
+  border-radius: 0 0 10px 10px;
+}
+
+.demo__button {
+  max-width: 279px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 60px;
+  padding: 10px;
+  padding-left: 18px;
+  background: $accent-color;
+  color: $active-font-color;
+}
+
+.demo__arrow {
+  color: $title-color;
+  padding: 6px;
+  background: $active-font-color;
+  border-radius: 100%;
+}
+
+@include xsmall {
+
+  .demo__description {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    padding-bottom: 0;
+  }
+
+  .demo__header {
+    font-weight: 500;
+    line-height: 27.2px;
+    color: $title-color;
+    margin-bottom: 14px;
+  }
+
+  .demo__text {
+    font-size: 13px;
+    font-weight: 400;
+    color: $font-color;
+  }
+
+  .demo__button {
+    max-width: 279px;
+    margin: 18px 0;
+  }
+}
