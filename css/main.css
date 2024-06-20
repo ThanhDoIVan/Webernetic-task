@@ -65,7 +65,7 @@ img {
 .demo__button {
   max-width: 279px;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -92,6 +92,7 @@ img {
     padding-bottom: 0;
   }
   .demo__header {
+    font-size: 17px;
     font-weight: 500;
     line-height: 27.2px;
     color: #1F4284;
@@ -104,6 +105,30 @@ img {
   }
   .demo__button {
     max-width: 279px;
+    margin: 18px 0;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .demo__description {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    padding-bottom: 0;
+  }
+  .demo__header {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27.2px;
+    color: #1F4284;
+    margin-bottom: 14px;
+  }
+  .demo__text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #727272;
+  }
+  .demo__button {
+    max-width: 261px;
     margin: 18px 0;
   }
 }/*# sourceMappingURL=main.css.map */

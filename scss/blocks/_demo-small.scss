@@ -1,0 +1,29 @@
+@import '../base/media';
+
+@include small {
+  .demo__description {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    padding-bottom: 0;
+  }
+
+  .demo__header {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27.2px;
+    color: $title-color;
+    margin-bottom: 14px;
+  }
+
+  .demo__text {
+    font-size: 15px;
+    font-weight: 400;
+    color: $font-color;
+  }
+
+  .demo__button {
+    max-width: 261px;
+    margin: 18px 0;
+  }
+}
