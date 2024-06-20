@@ -86,8 +86,13 @@ img {
   background: #244C98;
   color: #ffffff;
 }
+.demo__button:hover .demo__arrow {
+  transition: 0.3s ease;
+  transform: rotate(45deg);
+}
 
 .demo__arrow {
+  transition: 0.3s;
   color: #1F4284;
   padding: 6px;
   background: #ffffff;

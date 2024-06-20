@@ -24,9 +24,15 @@
   padding-left: 18px;
   background: $accent-color;
   color: $active-font-color;
+
+  &:hover .demo__arrow {
+    transition: .3s ease;
+    transform: rotate(45deg);
+  }
 }
 
 .demo__arrow {
+  transition: .3s;
   color: $title-color;
   padding: 6px;
   background: $active-font-color;
