@@ -1,23 +1,23 @@
 @mixin xsmall {
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 767px)  {
     @content; 
   }
 }
 
 @mixin small {
-  @media screen and (min-width: 375px) and (max-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
     @content; 
   }
 }
 
 @mixin medium {
-  @media screen and (min-width: 768px) and (max-width: 1440px) {
+  @media screen and (min-width: 1440px) and (max-width: 1919px) {
     @content; 
   }
 }
 
 @mixin large {
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1920px) {
     @content; 
   }
 }

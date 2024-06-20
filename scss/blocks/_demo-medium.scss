@@ -1,0 +1,40 @@
+@import '../base/media';
+
+@include medium {
+
+  .demo {
+    flex-direction: row;
+  }
+
+  .demo__description {
+    display: flex;
+    flex-direction: column;
+    padding: 105px 70px;
+  }
+
+  .demo__header {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 41.6px;
+    color: $title-color;
+    margin-bottom: 18px;
+  }
+
+  .demo__text {
+    font-size: 17px;
+    font-weight: 400;
+    color: $font-color;
+    line-height: 27.2px;
+    margin-bottom: 36px;
+  }
+
+  .demo__button {
+    padding: 12px 12px 12px 24px;
+    max-width: 341px;
+    margin: 0;
+  }
+
+  .demo__image {
+    width: 50%;
+  }
+}

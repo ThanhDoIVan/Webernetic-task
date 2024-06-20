@@ -84,7 +84,7 @@ img {
   border-radius: 100%;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
   .demo__description {
     display: flex;
     flex-direction: column;
@@ -102,13 +102,14 @@ img {
     font-size: 13px;
     font-weight: 400;
     color: #727272;
+    line-height: 20.8px;
   }
   .demo__button {
     max-width: 279px;
     margin: 18px 0;
   }
 }
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
   .demo__description {
     display: flex;
     flex-direction: column;
@@ -120,15 +121,48 @@ img {
     font-weight: 500;
     line-height: 27.2px;
     color: #1F4284;
-    margin-bottom: 14px;
+    margin-bottom: 18px;
   }
   .demo__text {
     font-size: 15px;
     font-weight: 400;
     color: #727272;
+    line-height: 24px;
   }
   .demo__button {
     max-width: 261px;
-    margin: 18px 0;
+    margin: 24px 0;
+  }
+}
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .demo {
+    flex-direction: row;
+  }
+  .demo__description {
+    display: flex;
+    flex-direction: column;
+    padding: 105px 70px;
+  }
+  .demo__header {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 41.6px;
+    color: #1F4284;
+    margin-bottom: 18px;
+  }
+  .demo__text {
+    font-size: 17px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 27.2px;
+    margin-bottom: 36px;
+  }
+  .demo__button {
+    padding: 12px 12px 12px 24px;
+    max-width: 341px;
+    margin: 0;
+  }
+  .demo__image {
+    width: 50%;
   }
 }/*# sourceMappingURL=main.css.map */
