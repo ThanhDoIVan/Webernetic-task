@@ -9,6 +9,16 @@ body {
   padding: 14px 24px;
 }
 
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .container {
+    padding: 36px 40px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .container {
+    padding: 36px 40px;
+  }
+}
 .none {
   display: none;
 }
@@ -147,6 +157,38 @@ img {
     font-size: 26px;
     font-weight: 500;
     line-height: 41.6px;
+    color: #1F4284;
+    margin-bottom: 18px;
+  }
+  .demo__text {
+    font-size: 17px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 27.2px;
+    margin-bottom: 36px;
+  }
+  .demo__button {
+    padding: 12px 12px 12px 24px;
+    max-width: 341px;
+    margin: 0;
+  }
+  .demo__image {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .demo {
+    flex-direction: row;
+  }
+  .demo__description {
+    display: flex;
+    flex-direction: column;
+    padding: 105px 70px;
+  }
+  .demo__header {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 48px;
     color: #1F4284;
     margin-bottom: 18px;
   }

@@ -1,14 +1,28 @@
+@import './media';
+
 body {
-    font-family: "Manrope", sans-serif;
-    font-size: 17px;
-    color: #323232;
-    line-height: 1.6875;
+  font-family: 'Manrope', sans-serif;
+  font-size: 17px;
+  color: #323232;
+  line-height: 1.6875;
 }
 
 .container {
-    padding: 14px 24px;
+  padding: 14px 24px;
+}
+
+@include medium {
+  .container {
+    padding: 36px 40px;
+  }
+}
+
+@include large {
+  .container {
+    padding: 36px 40px;
+  }
 }
 
 .none {
-    display: none;
+  display: none;
 }
